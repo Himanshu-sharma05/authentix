@@ -19,7 +19,7 @@ const Navbar = () => {
             <Link className="dark:hover:bg-gray-50/10 hover:bg-gray-100 hover:text-black dark:hover:text-white rounded-lg px-5 py-2" href={'/'}>Contact</Link>
         </div>
 
-        <div className="right-side flex items-center justify-around gap-5">
+        <div className="right-side flex items-center justify-around gap-5"> 
         <div>
             <ModeToggle/>
         </div>

@@ -3,8 +3,6 @@ import React, { Suspense, useEffect, useRef, useState } from "react";
 import { motion } from "motion/react";
 import { IconUpload } from "@tabler/icons-react";
 import { useDropzone } from "react-dropzone";
-import TestComponent from "../TestComponent";
-import { LoaderOne } from "./loader";
 import TestLoader from "../TestLoader";
 
 

@@ -13,10 +13,10 @@ const Navbar = () => {
         <div className="center  flex gap-5 text-gray-500 font-[Poppins] font-thin text-sm dark:text-white ">
             
             <Link className="dark:hover:bg-gray-50/10 hover:bg-gray-100 hover:text-black dark:hover:text-white rounded-lg px-5 py-2" href={'/verifycertificate'}>Verify certificate</Link>
-            <Link className="dark:hover:bg-gray-50/10 hover:bg-gray-100 hover:text-black dark:hover:text-white rounded-lg px-5 py-2" href={'/'}>Institutions</Link>
+            <Link className="dark:hover:bg-gray-50/10 hover:bg-gray-100 hover:text-black dark:hover:text-white rounded-lg px-5 py-2" href={'/signdocument'}>Sign document</Link>
             <Link className="dark:hover:bg-gray-50/10 hover:bg-gray-100 hover:text-black dark:hover:text-white rounded-lg px-5 py-2" href={'/'}>Dashboard</Link>
             <Link className="dark:hover:bg-gray-50/10 hover:bg-gray-100 hover:text-black dark:hover:text-white rounded-lg px-5 py-2" href={'/'}>About</Link>
-            <Link className="dark:hover:bg-gray-50/10 hover:bg-gray-100 hover:text-black dark:hover:text-white rounded-lg px-5 py-2" href={'/'}>Contact</Link>
+            <Link className="dark:hover:bg-gray-50/10 hover:bg-gray-100 hover:text-black dark:hover:text-white rounded-lg px-5 py-2" href={'/contact'}>Contact</Link>
         </div>
 
         <div className="right-side flex items-center justify-around gap-5"> 
